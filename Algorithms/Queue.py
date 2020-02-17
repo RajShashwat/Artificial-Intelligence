@@ -7,7 +7,7 @@ print("Enter the element in queue")
 print("Enter n/N To stop entring number")
 while True :
     z=input()
-    if z == "no" or z == "No" or z == "NO" :
+    if z == "no" or z == "No" or z == "NO" or z=="n" or z=="N" :
         break
     queue.append(z)
     
