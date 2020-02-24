@@ -29,6 +29,7 @@ def wins(state, player):
         return True
     else:
         return False
+    
 
 def evaluate(state):
 
@@ -172,6 +173,7 @@ def human_turn(c_choice, h_choice):
             print('Bad choice')
 
 def nextGame():
+    
     global board
     board= [
     [0, 0, 0],
@@ -179,6 +181,7 @@ def nextGame():
     [0, 0, 0],
             ]
     answer=''
+    
     while answer != 'Y' and answer != 'N':
         try:
             print('')
@@ -247,5 +250,6 @@ def main():
         print('DRAW!')
 
     nextGame()
+    
 
 main()
